@@ -16,7 +16,6 @@ Es necesario instalar Git, solo se tiene que descargar el archivo de la pagina o
 -/-CLONAR UN REPOSITORIO DE GITHUB EN VSC-/-
 Presione Ctrl + Shift + P para abrir el "Command Palette" o seleccione la primera opción en el icono de configuraciones, escriba "Git Clone" y seleccione "Clone from GitHub" para que aparezca el link de su repositorio en GitHub. Después de esto se debería de abrir la ventanilla de documentos en el cual debe buscar la carpeta asignada con el nombre que le dió a su repositorio. VSC le dará la opción de abrir este documento en un Workspace que ya se esté trabajando o una ventana nueva seguido de su seleccion VSC preguntará si confia en el autor del repositorio.
 En la barra izquierda de "Explorer" bajo el nombre de su repositorio deberían estar la Licencia y el README.md creados. Precione el icono de carpeta nueva y nombre dicha carpeta, después precione el icono de archivo nuevo para nombrarlo a su gusto o como se le asigne por su profesor. Ya puede hacer cualquier tipo de cambio en su repositorio.
-Al hacer un cambio, VSC notificá al usuario en el icono de "Source Control" por lo cual se tiene que guardar esos cambios, para esto presione el signo de "+" a lado de "changes", agregue un nombre para estos cambios y haga click en "Commit". Los cambios serán reflejados en su perfil de GitHub.
 
 -/-INSTALACIÓN DE VIRTUAL BOX (VB) Y UBUNTU-/-
 Entre a la pagina oficial en: https://www.virtualbox.org/ y descargue el Setup de su preferencia. Al iniciar la instalación es posible que VB mencione que necesita "Microsoft Visual C++ 2019 Redistributable Package", para esto tiene que dirigirse a la pagina de Microsoft: https://learn.microsoft.com/es-es/cpp/windows/latest-supported-vc-redist?view=msvc-170 y en la parte de "Versión redistribuible compatible más reciente" descargar el documento que requiera. Al instalarlo es probable que necesite reiniciar la computadora para que Windows registre los nuevos componentes de forma apropiada.
@@ -29,4 +28,12 @@ Al finalizar seleccione su usuario y escriba su contraseña creada para acceder 
 Actualice Ubuntu presionando el botón del logotipo de Ubuntu, "settings", en las opiciones del lado izquierdo baje hasta encontrar "system" y seleccione "software updates" para realiazar la actualización. La VM le pedirá reiniciar para instalar correctamente las actualizaciones.
 Para guardar la sesión de la VM precione la "x" de la parte superior derecha para cerrarla y en la ventanilla que aparece seleccione "Guardar el estado de la maquina" y Aceptar.
 
-finito! TAN-TAN! Adieu! Goodbye! Auf Wiedersehen! 
+-/-/GUARDAR CAMBIOS EN VSC Y SINCRONOZARLOS EN GITHUB-/-
+Primero debemos de abrir la terminal. Para esto en el menú superior podemos ver "terminal", aqui presionamos "new terminal" y escribimos los siguientes comandos:
+git config --global user.name "NOMBRE_APELLIDO"
+git config --global user.email "MiNombre@ejemplo.com"
+De no hacer esto no se podran guardar los cambios ni la sincronización ya que aparece un error por falta de información.
+Al hacer un cambio, VSC notificá al usuario en el icono de "Source Control" por lo cual se tiene que guardar esos cambios, para esto presione el signo de "+" a lado de "changes", agregue un nombre designado por el profesor para estos cambios y haga click en "Commit". Los cambios serán reflejados en su perfil de GitHub.
+
+
+finito! TAN-TAN! Adieu! Goodbye! Auf Wiedersehen!
