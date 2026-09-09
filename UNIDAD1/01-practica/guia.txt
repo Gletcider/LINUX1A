@@ -37,15 +37,20 @@ Al hacer un cambio, VSC notificá al usuario en el icono de "Source Control" por
 Para cualquier cambio o actualización adicional presione ctrl + S para que "Source Control" notifique de sus cambios, nombre su actualización, precione "Commit" y "sync".
 
 -/-CREACIÓN DE CARPETAS Y DOCUMENTOS EN UBUNTU USANDO LA TERMINAL-/-
+
 Para abrir la terminal precione el icono del menu principal en la parte inferior izquierda y seleccione la terminal.
+
+----** En el caso de algun error al escribir el nombre de una carpeta o alchivo, para borrar un elemento el comando es "rm " seguido del nombre de la carpeta y/o "rm -r " seguido de archivo. **
+
+----** En caso de necesitar mover documentos a diferentes carpetas:
+1ro debemos entrar a la carpeta donde se encuentra el documento a mover y aplicar el comando:
+mv "nombre de archivo" "nombre de carpeta"/"nombre de archivo" **
 
 El comando "ls" en la raiz del kernel "NOMBRE DE USUARIO@NOMBRE DE VM" enlista las carpetas dentro de ella.
 
 Al estar en esta ventanilla hay que ingresar los siguientes comandos:
 mkdir -p ~/laboratorio-cli/{docs,src,logs}
 Este crea las carpetas de "docs, src y logs".
-
-**En el caso de algun error al escribir el nombre de una carpeta o alchivo, para borrar un elemento el comando es "rm " seguido del nombre de la carpeta y/o "rm -r " seguido de archivo.**
 
 cd ~/laboratorio-cli
 Este comando nos lleva a la carpeta de "laboratorio-cli"
@@ -78,6 +83,9 @@ drwxrwxr-x
 
 Valores:
 Ignorar "d" / r=4 / w=2 / x=1 / -=0
+r = reading
+w = wrinting
+x = execute
 rwx=7 / rwx=7 / r-x=5
 =775
 
