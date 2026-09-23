@@ -127,4 +127,9 @@ Abre el manual de las utilidades principales del GNU, incluyendo los programas e
 apropos 'list directory'
 Revela una lista de comandos relacionados con la acción de listar el contenido de un directorio. Esto incluye comandos como "ls" y "dir".
 
+Función: le da acción a una entidad.
+Clase (entidad) -> sujeto -> primero
+Función -> verbo -> ladrar
+
+
 finito! TAN-TAN! Adieu! Goodbye! Auf Wiedersehen!
